@@ -44,12 +44,36 @@ a:hover{
     padding-top: 100px;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 70%;
+    height: 600px;
+}
+
+#pic{
+    width: 30%;
+    float: left;
+    height: fit-content;
 }
 
 #mypic{
-    width: 250px;
+    width: 300px;
     border-radius: 25px;
+}
+
+#intro{
+    width: 70%;
+    float: right;
+    height: fit-content;
+}
+
+#intro p{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, "microsoft YaHei New";
+}
+
+#icons{
+    width: 30%;
+    float: left;
+    float: bottom;
 }
 
 #icons li{
