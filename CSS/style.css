@@ -63,8 +63,15 @@ a:hover{
 }
 
 #mypic{
+    margin-left: 25px;
     width: 300px;
     border-radius: 25px;
+}
+
+#icons img{
+    float: left;
+    width: 50px;
+    padding-inline: 10px;
 }
 
 #intro{
