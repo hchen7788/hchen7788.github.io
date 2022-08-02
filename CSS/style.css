@@ -46,14 +46,14 @@ a:hover{
 }
 
 
-/* CONTENT */
+/* CONTENT - SUMMARY */
 #summary{
     display: block;
     padding-top: 100px;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
-    height: 600px;
+    height: 550px;
 }
 
 #pic{
@@ -88,6 +88,32 @@ a:hover{
     display: inline;
     list-style-type: none;
 }
+
+/* CONTENT - MAIN */
+#nav-bar{
+    background-color: #fef8c62e;
+    width: 70%;
+    margin: auto;
+    height: fit-content;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border-style: outset;
+    border-radius: 0.5cm;
+    border-width: 0.2cm;
+}
+
+#nav-bar ul{
+    list-style-type: none;
+}
+
+#nav-bar li{
+    display: inline;
+    padding: 40px;
+}
+
 
 
 /* FOOTER */
