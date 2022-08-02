@@ -52,7 +52,7 @@ a:hover{
     padding-top: 100px;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 65%;
     height: 550px;
 }
 
@@ -64,24 +64,24 @@ a:hover{
 
 #mypic{
     margin-left: 25px;
-    width: 300px;
+    width: 100%;
     border-radius: 25px;
 }
 
 #icons img{
     float: left;
     width: 50px;
-    padding-inline: 10px;
+    padding-inline: 4px;
 }
 
 #intro{
-    width: 70%;
+    width: 65%;
     float: right;
     height: fit-content;
 }
 
 #intro p{
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Courier New', Courier, "microsoft YaHei New";
 }
 
@@ -108,7 +108,7 @@ a:hover{
     height: fit-content;
     padding-top: 1px;
     padding-bottom: 1px;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     border-style: outset;
@@ -122,7 +122,7 @@ a:hover{
 
 #nav-bar li{
     display: inline;
-    padding: 40px;
+    padding: 10px;
 }
 
 #main-content h1{
