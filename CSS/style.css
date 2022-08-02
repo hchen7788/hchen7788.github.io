@@ -90,9 +90,13 @@ a:hover{
 }
 
 /* CONTENT - MAIN */
+#main-content{
+    width: 70%;
+    margin: auto;
+}
+
 #nav-bar{
     background-color: #fef8c62e;
-    width: 70%;
     margin: auto;
     height: fit-content;
     padding-top: 1px;
@@ -114,6 +118,11 @@ a:hover{
     padding: 40px;
 }
 
+#main-content h1{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+}
 
 
 /* FOOTER */
