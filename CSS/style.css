@@ -67,15 +67,15 @@ a:hover{
 }
 
 #mypic{
-    margin-left: 25px;
+    margin-left: 20px;
     width: 100%;
     border-radius: 25px;
 }
 
 #icons img{
     float: left;
-    width: 50px;
-    padding-inline: 4px;
+    width: 20%;
+    padding-inline: 2.5%;
 }
 
 #intro{
