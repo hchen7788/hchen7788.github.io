@@ -53,11 +53,11 @@ a:hover{
 /* CONTENT - SUMMARY */
 #summary{
     display: block;
-    padding-top: 100px;
+    padding-top: 50px;
     margin-left: auto;
     margin-right: auto;
     width: 65%;
-    height: 550px;
+    height: 500px;
 }
 
 #pic{
