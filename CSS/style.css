@@ -100,7 +100,7 @@ a:hover{
     list-style-type: none;
 }
 
-/* CONTENT - MAIN */
+/* CONTENT - ANCHOR */
 #main-content{
     width: 70%;
     margin: auto;
@@ -129,10 +129,33 @@ a:hover{
     padding: 10px;
 }
 
-#main-content h1{
+/* CONTENT - MAIN*/
+p.anchor{
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 100;
+    margin-left: 0;
+}
+
+#main-content img{
+    width: 15%;
+}
+
+#edu{
+    background-color: #AAA9A9;
+}
+
+#workexp{
+    background-color: antiquewhite;
+}
+
+#leadexp{
+    background-color: aqua;
+    height: fit-content;
+}
+
+#projects{
+    background-color: aquamarine;
 }
 
 
