@@ -101,7 +101,7 @@ a:hover{
 }
 
 /* CONTENT - ANCHOR */
-#main-content{
+#main{
     width: 70%;
     margin: auto;
 }
@@ -137,8 +137,16 @@ p.anchor{
     margin-left: 0;
 }
 
-#main-content img{
+#content img{
     width: 15%;
+}
+
+div.detail{
+    background-color: aqua;
+    width: 80%;
+    float: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
 }
 
 #edu{
@@ -151,7 +159,6 @@ p.anchor{
 
 #leadexp{
     background-color: aqua;
-    height: fit-content;
 }
 
 #projects{
