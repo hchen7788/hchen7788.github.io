@@ -57,7 +57,8 @@ a:hover{
     margin-left: auto;
     margin-right: auto;
     width: 65%;
-    height: 500px;
+    height: auto;
+    overflow: hidden;
 }
 
 #pic{
@@ -108,11 +109,8 @@ a:hover{
 
 #nav-bar{
     background-color: #fef8c62e;
-    margin: auto;
     height: fit-content;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    font-size: 25px;
+    font-size: 80%;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     border-style: outset;
@@ -122,14 +120,16 @@ a:hover{
 
 #nav-bar ul{
     list-style-type: none;
+    padding: 0;
+    margin: 10;
 }
 
 #nav-bar li{
     display: inline;
-    padding: 10px;
+    padding: 5px;
 }
 
-/* CONTENT - MAIN*/
+/* CONTENT - MAIN */
 p.anchor{
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
@@ -141,12 +141,22 @@ p.anchor{
     width: 15%;
 }
 
+#content div{
+    display: table-cell;
+    height: auto;
+    overflow: hidden;
+}
+
 div.detail{
     background-color: aqua;
     width: 80%;
     float: right;
     font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
+}
+
+p.title{
+    font-weight: bold;
 }
 
 #edu{
