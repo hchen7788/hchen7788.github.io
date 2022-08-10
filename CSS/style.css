@@ -148,7 +148,6 @@ p.anchor{
 }
 
 div.detail{
-    background-color: aqua;
     width: 80%;
     float: right;
     font-family: 'Courier New', Courier, monospace;
@@ -160,19 +159,15 @@ p.title{
 }
 
 #edu{
-    background-color: #AAA9A9;
 }
 
 #workexp{
-    background-color: antiquewhite;
 }
 
 #leadexp{
-    background-color: aqua;
 }
 
 #projects{
-    background-color: aquamarine;
 }
 
 
