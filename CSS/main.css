@@ -1,0 +1,41 @@
+/* CONTENT - MAIN */
+p.anchor{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    margin-left: 0;
+}
+
+#content img{
+    width: 15%;
+    padding: 50px 0;
+}
+
+#content div{
+    display: table-cell;
+    height: auto;
+    overflow: hidden;
+}
+
+div.detail{
+    width: 80%;
+    float: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+p.title{
+    font-weight: bold;
+}
+
+#edu{
+}
+
+#workexp{
+}
+
+#leadexp{
+}
+
+#projects{
+}

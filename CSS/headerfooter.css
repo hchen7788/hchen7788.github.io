@@ -57,58 +57,6 @@ a:hover{
     color: #AAA9A9;
 }
 
-
-/* CONTENT - SUMMARY */
-#summary{
-    display: block;
-    padding-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 65%;
-    height: auto;
-    overflow: hidden;
-}
-
-#pic{
-    width: 30%;
-    float: left;
-    height: fit-content;
-}
-
-#mypic{
-    margin-left: 20px;
-    width: 100%;
-    border-radius: 25px;
-}
-
-#icons img{
-    float: left;
-    width: 20%;
-    padding-inline: 2.5%;
-}
-
-#intro{
-    width: 65%;
-    float: right;
-    height: fit-content;
-}
-
-#intro p{
-    font-size: 18px;
-    font-family: 'Courier New', Courier, "microsoft YaHei New";
-}
-
-#icons{
-    width: 30%;
-    float: left;
-    float: bottom;
-}
-
-#icons li{
-    display: inline;
-    list-style-type: none;
-}
-
 /* CONTENT - ANCHOR */
 #main{
     width: 70%;
@@ -147,6 +95,7 @@ p.anchor{
 
 #content img{
     width: 15%;
+    padding: 50px 0;
 }
 
 #content div{
