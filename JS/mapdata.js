@@ -1586,7 +1586,7 @@ var simplemaps_worldmap_mapdata={
       lat: "20.0200",
       lng: "110.3486",
       color: "default",
-      description: "WenChang, Sanya, Sansha",
+      description: "Haikou, WenChang, Sanya, Sansha",
       url: "https://en.wikipedia.org/wiki/Hainan"
     },
     "hunan":{
@@ -1661,6 +1661,13 @@ var simplemaps_worldmap_mapdata={
       description: "Guiyang",
       url: "https://en.wikipedia.org/wiki/Guizhou"
     },
+    "taiwan":{
+      name: "Taiwan",
+      lat: "23.6978",
+      lng: "120.9605",
+      description: "Taipei",
+      url: "https://en.wikipedia.org/wiki/Taiwan"
+    },
     // ELSEWHERE IN ASIA
     "bangkok":{
       name: "Bangkok",
@@ -1709,6 +1716,20 @@ var simplemaps_worldmap_mapdata={
       description: "Salt Lake City",
       url: "https://en.wikipedia.org/wiki/Utah"
     },
+    "arizona":{
+      name: "Arizona",
+      lat: "34.0489",
+      lng: "-111.0937",
+      description: "Grand Canyon",
+      url: "https://en.wikipedia.org/wiki/Arizona"
+    },
+    "nevada":{
+      name: "Nevada",
+      lat: "38.8026",
+      lng: "-116.4194",
+      description: "Las Vegas",
+      url: "https://en.wikipedia.org/wiki/Nevada"
+    },
     // Europe
     "paris":{
       name: "Paris",
@@ -1717,12 +1738,18 @@ var simplemaps_worldmap_mapdata={
       description: "default",
       url: "https://en.wikipedia.org/wiki/Paris"
     },
-    "switzerland":{
-      name: "Switzerland",
-      lat: "46.8182",
-      lng: "8.2275",
+    "dijon":{
+      name: "Dijon",
+      lat: "47.3220",
+      lng: "5.0415",
+      url: "https://en.wikipedia.org/wiki/Dijon"
+    },
+    "zurich":{
+      name: "Zürich",
+      lat: "47.3769",
+      lng: "8.5417",
       description: "default",
-      url: "https://en.wikipedia.org/wiki/Switzerland"
+      url: "https://en.wikipedia.org/wiki/Zürich"
     },
     "germany":{
       name: "Germany",
