@@ -7,6 +7,7 @@
 #nav-bar{
     background-color: #fef8c62e;
     height: fit-content;
+    width: 100%;
     font-size: 80%;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
