@@ -18,12 +18,12 @@ var simplemaps_worldmap_mapdata={
     
 		//Location defaults
 		location_description: "Location description",
-    location_color: "#FF0067",
+    location_color: "#ed2f2f",
     location_opacity: 0.8,
     location_hover_opacity: 1,
     location_url: "",
-    location_size: 25,
-    location_type: "square",
+    location_size: 20,
+    location_type: "marker",
     location_border_color: "#FFFFFF",
     location_border: 2,
     location_hover_border: 2.5,
@@ -1572,31 +1572,179 @@ var simplemaps_worldmap_mapdata={
     }
   },
   locations: {
-    "0": {
+    // CHINA
+    "guangdong":{
+      name: "Guangdong",
+      lat: "23.1317",
+      lng: "113.2663",
+      color: "default",
+      description: "Foshan, Guangzhou, Shenzhen",
+      url: "https://en.wikipedia.org/wiki/Guangdong"
+    },
+    "hainan":{
+      name: "Hainan",
+      lat: "20.0200",
+      lng: "110.3486",
+      color: "default",
+      description: "WenChang, Sanya, Sansha",
+      url: "https://en.wikipedia.org/wiki/Hainan"
+    },
+    "hunan":{
+      name: "Hunan",
+      lat: "28.1142",
+      lng: "112.9833",
+      color: "default",
+      description: "Changsha",
+      url: "https://en.wikipedia.org/wiki/Hunan"
+    },
+    "hubei":{
+      name: "Hubei",
+      lat: "30.5454",
+      lng: "114.3423",
+      color: "default",
+      description: "Wuhan",
+      url: "https://en.wikipedia.org/wiki/Hubei"
+    },
+    "innermongolia":{
+      name: "Inner Mongolia",
+      lat: "40.8173",
+      lng: "111.7652",
+      description: "default",
+      url: "https://en.wikipedia.org/wiki/Inner_Mongolia"
+    },
+    "hebei":{
+      name: "Hebei",
+      lat: "38.0360",
+      lng: "114.4698",
+      description: "default",
+      url: "https://en.wikipedia.org/wiki/Hebei"
+    },
+    "beijing":{
+      name: "Beijing",
+      lat: "39.9042",
+      lng: "116.4074",
+      description: "default",
+      url: "https://en.wikipedia.org/wiki/Beijing"
+    },
+    "shanghai":{
+      name: "Shanghai",
+      lat: "31.2304",
+      lng: "121.4737",
+      description: "default",
+      url: "https://en.wikipedia.org/wiki/Shanghai"
+    },
+    "anhui":{
+      name: "Anhui",
+      lat: "31.8616",
+      lng: "117.2857",
+      description: "Huangshan",
+      url: "https://en.wikipedia.org/wiki/Anhui"
+    },
+    "hongkong":{
+      name: "Hong Kong",
+      lat: "22.3193",
+      lng: "114.1694",
+      description: "default",
+      url: "https://en.wikipedia.org/wiki/Hong_Kong"
+    },
+    "yunnan":{
+      name: "Yunnan",
+      lat: "25.0453",
+      lng: "102.7097",
+      description: "Kunming",
+      url: "https://en.wikipedia.org/wiki/Yunnan"
+    },
+    "guizhou":{
+      name: "Guizhou",
+      lat: "26.5982",
+      lng: "106.7072",
+      description: "Guiyang",
+      url: "https://en.wikipedia.org/wiki/Guizhou"
+    },
+    // ELSEWHERE IN ASIA
+    "bangkok":{
+      name: "Bangkok",
+      lat: "13.7563",
+      lng: "100.5018",
+      url: "https://en.wikipedia.org/wiki/Bangkok"
+    },
+    "pattaya":{
+      name: "Pattaya",
+      lat: "12.9236",
+      lng: "100.877083",
+      url: "https://en.wikipedia.org/wiki/Pattaya"
+    },
+    "kualalumpur":{
+      name: "Kuala Lumpur",
+      lat: "3.1569",
+      lng: "101.7123",
+      url: "https://en.wikipedia.org/wiki/Kuala_Lumpur"
+    },
+    // US
+    "texas":{
+      name: "Texas",
+      lat: "31.9686",
+      lng: "-99.9018",
+      description: "Dallas, Austin",
+      url: "https://en.wikipedia.org/wiki/Texas"
+    },
+    "california":{
+      name: "California",
+      lat: "36.7783",
+      lng: "-119.4179",
+      description: "San Diego, San Mateo, San Francisco, Los Angeles",
+      url: "https://en.wikipedia.org/wiki/California"
+    },
+    "wyoming":{
+      name: "Wyoming",
+      lat: "43.0760",
+      lng: "-107.290283",
+      desciption: "Yellowstone",
+      url: "https://en.wikipedia.org/wiki/Wyoming"
+    },
+    "utah":{
+      name: "Utah",
+      lat: "39.3210",
+      lng: "-111.950684",
+      description: "Salt Lake City",
+      url: "https://en.wikipedia.org/wiki/Utah"
+    },
+    // Europe
+    "paris":{
       name: "Paris",
-      lat: "48.866666670",
-      lng: "2.333333333",
-      color: "default",
+      lat: "48.8566",
+      lng: "2.3522",
       description: "default",
-      url: "default"
+      url: "https://en.wikipedia.org/wiki/Paris"
     },
-    "1": {
-      name: "Tokyo",
-      lat: "35.666666670",
-      lng: "139.750000000",
-      color: "default",
+    "switzerland":{
+      name: "Switzerland",
+      lat: "46.8182",
+      lng: "8.2275",
       description: "default",
-      url: "default"
+      url: "https://en.wikipedia.org/wiki/Switzerland"
     },
-    "3": {
-      name: "New York",
-      lat: "40.71",
-      lng: "-74.0059731",
-      description: "default",
-      color: "default",
-      url: "default",
-      size: "default"
+    "germany":{
+      name: "Germany",
+      lat: "51.1657",
+      lng: "10.4515",
+      description: "Only been there for ~1 hour lol",
+      url: "https://en.wikipedia.org/wiki/Germany"
+    },
+    // Australia
+    "sydney":{
+      name: "Sydney",
+      lat: "-33.8688",
+      lng: "151.2093",
+      url: "https://en.wikipedia.org/wiki/Sydney"
+    },
+    "queensland":{
+      name: "Queensland",
+      lat: "-22.5752",
+      lng: "144.0848",
+      url: "https://en.wikipedia.org/wiki/Queensland"
     }
+
   },
   labels: {}
 };
