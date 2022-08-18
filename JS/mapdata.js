@@ -2,7 +2,7 @@ var simplemaps_worldmap_mapdata={
   main_settings: {
     //General settings
 		width: "responsive", //or 'responsive'
-    background_color: "#FFFFFF",
+    background_color: "FFFFFF",
     background_transparent: "yes",
     popups: "detect",
     
@@ -1123,7 +1123,7 @@ var simplemaps_worldmap_mapdata={
       url: "default"
     },
     TW: {
-      name: "Taiwan",
+      name: "Taiwan, China",
       description: "default",
       color: "default",
       hover_color: "default",
@@ -1347,7 +1347,7 @@ var simplemaps_worldmap_mapdata={
       url: "default"
     },
     HK: {
-      name: "Hong Kong",
+      name: "Hong Kong SAR, China",
       description: "default",
       color: "default",
       hover_color: "default",
