@@ -17,6 +17,10 @@ p.anchor{
     overflow: hidden;
 }
 
+div.detail a{
+    color:rgb(22, 83, 225);
+}
+
 div.detail{
     width: 70%;
     float: right;
