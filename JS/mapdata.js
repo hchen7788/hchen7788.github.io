@@ -1730,6 +1730,20 @@ var simplemaps_worldmap_mapdata={
       description: "Las Vegas",
       url: "https://en.wikipedia.org/wiki/Nevada"
     },
+    "washington":{
+      name: "Washington",
+      lat: "47.7511",
+      lng: "-120/7401",
+      description: "Seattle",
+      url: "https://en.wikipedia.org/wiki/Washington_(state)"
+    },
+    "oregon":{
+      name: "Oregon",
+      lat: "43.8041",
+      lng: "-120.5542",
+      description: "Happy Valley, Portland",
+      url: "https://en.wikipedia.org/wiki/Oregon"
+    },
     // Europe
     "paris":{
       name: "Paris",
