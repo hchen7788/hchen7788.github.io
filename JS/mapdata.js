@@ -1733,7 +1733,7 @@ var simplemaps_worldmap_mapdata={
     "washington":{
       name: "Washington",
       lat: "47.7511",
-      lng: "-120/7401",
+      lng: "-120.7401",
       description: "Seattle",
       url: "https://en.wikipedia.org/wiki/Washington_(state)"
     },
