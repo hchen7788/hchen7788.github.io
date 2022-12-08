@@ -1,2 +1,3 @@
 # hchen7788.github.io
-Hey, this is my personal website, still in the working.
+[Link](https://hchen7788.github.io/)
+Link to my personal website, still under construction :)
