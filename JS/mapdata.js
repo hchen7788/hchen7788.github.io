@@ -1744,6 +1744,13 @@ var simplemaps_worldmap_mapdata={
       description: "Happy Valley, Portland",
       url: "https://en.wikipedia.org/wiki/Oregon"
     },
+    "massachusetts":{
+      name: "Massachusetts",
+      lat: "42.4072",
+      lng: "-71.3824",
+      description: "Boston, Cape Cod",
+      url: "https://en.wikipedia.org/wiki/Massachusetts"
+    },
     // Europe
     "paris":{
       name: "Paris",
