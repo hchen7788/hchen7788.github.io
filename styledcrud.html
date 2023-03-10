@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Haitong's Portfolio</title>
+        <link rel="icon" href="images/home-icon.jpeg">
+        <link rel="stylesheet" href="CSS/styles.css">
+        <!-- <link rel="stylesheet" href="https://kit.fontawesome.com/c43e99aa1d.css" crossorigin="anonymous"> -->
+        <script src="https://kit.fontawesome.com/c43e99aa1d.js" crossorigin="anonymous"></script>
+        <script src="./JS/styledblog.js"></script>
+        <script src="
+            https://cdn.jsdelivr.net/npm/dompurify@3.0.0/dist/purify.min.js
+        "></script>
+        <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script> -->
+    
+        <style>
+            ul {
+                max-width: 70ch;
+                margin: auto;
+                padding-left: 0;
+                list-style: none;
+            }
+
+            li {
+                margin-bottom: 30px;
+            }
+
+            p {
+                text-align: left;
+            }
+
+            button {
+                font-size: 15px;
+                background-color: #fef8c66c;
+                border-radius: 15px;
+                border-width: 0.1px;
+                border-color: #AAA9A9;
+                padding: 5px;
+                margin-inline: 5px;
+                margin-top: 10px;
+                cursor: pointer;
+            }
+
+            .inDialogBtn{
+                width: 70px;
+                height: 40px;
+                border-radius: 20px;
+                margin-top: 10px;
+            }
+
+            label{
+                display: block;
+                margin-bottom: 5px;
+            }
+
+            input{
+                text-align: center;
+                margin-bottom: 10px;
+            }
+
+            dialog{
+                text-align: center;
+                border-radius: 15px;
+                border-width: 2px;
+                border-color: #AAA9A9;
+            }
+
+            dialog p{
+                text-align: center;
+            }
+
+            .crudBlog{
+                background-color:#f7f7c14c;
+                border-radius: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        </style>
+    
+    </head>
+    <body style="margin-top: 20px; text-align: center;">
+        <h1>List of Posts</h1>
+        <main id="pageMain">
+        <!-- <p id="p1" class="crudBlog" title="Post 1 Title" date="Post 1 Date" 
+        summary="Post 1 summary here. This post is just a placeholder. Let's make a longer summary to see how it looks like on the page."></p>
+
+        <p id="p2" class="crudBlog" title="Post 2 Title" date="Post 2 Date" 
+        summary="Post 2 summary here. This post is just a placeholder."></p>
+
+        <p id="p3" class="crudBlog" title="Post 3 Title" date="Post 3 Date" 
+        summary="Post 3 summary here. This post is just a placeholder."></p> -->
+
+        <ul id="blogList">
+        </ul>
+        <button id="addBtn" class="fa-solid fa-plus" onclick="styledAddPrompt()"></button>
+
+
+        <dialog id="addBlogEntry">
+            <form method="dialog">
+                <label for="title">Title:</label>
+                <input id="addTitleInput" type="text" name="title" value="Title"><br>
+                <label for="date">Date:</label>
+                <input id="addDateInput" type="text" name="date" value="Date"><br>
+                <label for="summary">Summary:</label>
+                <input id="addSummaryInput" type="text" name="summary" value="Summary" class="summaryInput"><br>
+                <button class="inDialogBtn">Cancel</button>
+                <button id="addSaveBtn" class="inDialogBtn">Save</button>
+            </form>
+        </dialog>
+
+        <dialog id="editBlogEntry">
+            <form method="dialog">
+                <label for="title">Title:</label>
+                <input id="editTitleInput" type="text" name="title" value="Title"><br>
+                <label for="date">Date:</label>
+                <input id="editDateInput" type="text" name="date" value="Date"><br>
+                <label for="summary">Summary:</label>
+                <input id="editSummaryInput" type="text" name="summary" value="Summary" class="summaryInput"><br>
+                <button class="inDialogBtn">Cancel</button>
+                <button id="editSaveBtn" class="inDialogBtn">Save</button>
+            </form>
+        </dialog>
+
+        <dialog id="deleteConfirmEntry">
+            <form method="dialog">
+                <p>Delete this post?</p>
+                <button class="inDialogBtn">Cancel</button>
+                <button id="deleteConfirmBtn" class="inDialogBtn">Ok</button>
+            </form>
+        </dialog>
+    </main>
+    </body>
+</html>
