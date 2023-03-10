@@ -1,5 +1,3 @@
-Name: Haitong Chen
+# Link to my portfolioooo
 
-PID: A17150059
-
-Netlify URL: https://bucolic-sawine-bbcd03.netlify.app
+URL:
