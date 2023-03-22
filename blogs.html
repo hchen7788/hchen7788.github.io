@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="CSS/blogs.css">
         <script src="./JS/framework.js"></script>
         <script src="./JS/post.js"></script>
+        <script type="module" src="https://md-block.verou.me/md-block.js"></script>
     </head>
 
     <!-- Google tag (gtag.js) -->
@@ -100,7 +101,9 @@
             </section>
 
             <section class="detail-post">
-                <a href="./blogs-posts/2023-02-06.md">First post</a>
+                <a onclick="expandPost()">First post</a>
+
+                <md-block id="md-html"></md-block>
                 
             </section>
 
