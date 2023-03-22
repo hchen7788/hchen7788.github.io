@@ -70,5 +70,14 @@
     color: #AAA9A9;
 }
 
+#md-html button{
+    font-size: 15px;
+    background-color: #fef8c66c;
+    width: 70px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
 
 
