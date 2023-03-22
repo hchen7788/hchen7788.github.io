@@ -16,6 +16,7 @@ a:link, a:visited{
 a:hover{
     color: #AAA9A9;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 #headernav {
@@ -102,6 +103,7 @@ a:hover{
 
 #feedback-btn:hover{
     background-color: azure;
+    cursor: pointer;
 }
 
 #feedback-btn:active{

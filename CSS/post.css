@@ -2,6 +2,8 @@
     margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 20px;
+
+    cursor: pointer;
 }
 
 .search-bar{
@@ -35,6 +37,8 @@
     transition-property: background-color;
     transition-duration: 0.1s;
     transition-delay: 0.1s;
+
+    cursor: pointer;
 }
 
 .search-btn:hover{
