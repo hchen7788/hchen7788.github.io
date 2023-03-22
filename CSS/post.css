@@ -53,16 +53,21 @@
 
 #md-html {
     font-size: 15px;
+    font-family: 'Inconsolata', 'Dosis', monospace, 'Yuanti SC';
     text-align: left;
     width: 70%;
     height: 70%;
     margin: auto;
     
-    padding: 20px;
+    padding: 30px;
     border-style: outset;
     border-width: 0.5px;
     border-color: black;
     border-radius: 30px;
+}
+
+#md-html a{
+    color: #AAA9A9;
 }
 
 
