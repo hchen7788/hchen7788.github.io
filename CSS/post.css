@@ -50,10 +50,32 @@
 }
 
 .detail-post{
+    width: 80%;
+    margin: auto;
     text-align: center;
     margin-bottom: 30px;
     font-size: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    padding: 10px;
 }
+
+.post-preview{
+    width: 30%;
+
+    text-align: left;
+
+    padding: 10px;
+}
+
+.post-preview p{
+    font-size: 15px;;
+}
+
+
 
 #md-html {
     font-size: 15px;
