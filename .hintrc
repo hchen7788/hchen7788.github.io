@@ -12,6 +12,7 @@
           "dialog"
         ]
       }
-    ]
+    ],
+    "button-type": "off"
   }
 }

@@ -6,6 +6,10 @@
     cursor: pointer;
 }
 
+.drop-down-header p{
+    margin: 1px;
+}
+
 .search-bar{
     text-align: center;
     border-radius: 10%;
