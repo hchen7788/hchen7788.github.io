@@ -1,8 +1,10 @@
 function toGif(fileName){
     console.log("in toGif");
+    alert("in toGif");
     let image = document.getElementById(`${fileName}Img`);
     image.setAttribute('src', `../eats-images/${fileName}.gif`);
     console.log("toGif done");
+    alert("leave toGif");
 }
 
 function leaveGif(fileName){
