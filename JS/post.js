@@ -19,3 +19,23 @@ function expandPost(fileName){
     };
     xhr.send();
 }
+
+function toGif(fileName, folder){
+    let image = document.getElementById(`${fileName}Img`);
+    image.setAttribute('src', `../${folder}/${fileName}.gif`);
+}
+
+function leaveGif(fileName, folder){
+    let image = document.getElementById(`${fileName}Img`);
+    image.setAttribute('src', `../${folder}/${fileName}.png`);
+}
+
+function toSub(fileName, folder){
+    let image = document.getElementById(`${fileName}Img`);
+    image.setAttribute('src', `../${folder}/${fileName}Sub.png`);
+}
+
+function leaveSub(fileName, folder){
+    let image = document.getElementById(`${fileName}Img`);
+    image.setAttribute('src', `../${folder}/${fileName}.png`);
+}
