@@ -1687,6 +1687,24 @@ var simplemaps_worldmap_mapdata={
         lng: "101.7123",
         url: "https://en.wikipedia.org/wiki/Kuala_Lumpur"
       },
+      "tokyo":{
+        name: "Tokyo",
+        lat: "35.6762",
+        lng: "139.6503",
+        url: "https://en.wikipedia.org/wiki/Tokyo"
+      },
+      "kyoto":{
+        name: "Kyoto",
+        lat: "35.042",
+        lng: "135.466",
+        url: "https://en.wikipedia.org/wiki/Kyoto"
+      },
+      "yamagata":{
+        name: "Yamagata",
+        lat: "38.15",
+        lng: "140.202",
+        url: "https://en.wikipedia.org/wiki/Yamagata_(city)"
+      },
       // US
       "texas":{
         name: "Texas",
@@ -1750,6 +1768,13 @@ var simplemaps_worldmap_mapdata={
         lng: "-71.3824",
         description: "Boston, Cape Cod",
         url: "https://en.wikipedia.org/wiki/Massachusetts"
+      },
+      "michigan":{
+        name: "Michigan",
+        lat: "44",
+        lng: "-85",
+        description: "Detroit, Ann Arbor, Novi, Canton",
+        url: "https://en.wikipedia.org/wiki/Michigan"
       },
       // Europe
       "paris":{
