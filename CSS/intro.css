@@ -89,12 +89,13 @@ animation for caret
         float: none;
         width: 100%;
     }
-    #pic {
-        width: 30%;
-    }
    
     #introleft{
         margin-bottom: 5px;
+    }
+    #pic {
+        width: 50%;
+        height: auto;
     }
     #introright{
         margin-bottom: 5px;
@@ -111,7 +112,8 @@ animation for caret
         width: 100%;
     }
     #pic {
-        width: 30%;
+        width: 50%;
+        height: auto;
     }
    
     #introleft{
@@ -132,7 +134,8 @@ animation for caret
         width: 100%;
     }
     #pic {
-        width: 60%;
+        width: 50%;
+        height: auto;
     }
 }
 
