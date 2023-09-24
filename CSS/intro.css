@@ -44,7 +44,7 @@ animation for caret
     transform: translateX(-50%);
     width: 70%;
     border-radius: 5%;
-    height: fit-content;
+    height: auto;
     animation: fadeIn 3s;
 }
 
