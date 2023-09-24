@@ -82,6 +82,14 @@ animation for caret
 }
 
 @media screen and (max-width: 1024px){
+    /* h1{
+        font-size: 1em;
+    } */
+
+    #socials img{
+        width: 30%;
+    }
+
     #selfintro {
         width: 80%;
     }
@@ -93,6 +101,7 @@ animation for caret
     #introleft{
         margin-bottom: 5px;
     }
+
     #pic {
         width: 50%;
         height: auto;
@@ -104,6 +113,15 @@ animation for caret
 }
 
 @media screen and (max-width: 780px){
+    h1{
+        font-size: 1.5em;
+    }
+
+    #socials img{
+        width: 60%;
+        padding-inline: 1%;
+    }
+
     #selfintro {
         width: 80%;
     }
@@ -126,6 +144,15 @@ animation for caret
 }
 
 @media screen and (max-width: 640px){
+    h1{
+        font-size: 1.5em;
+    }
+
+    #socials img{
+        width: 40%;
+        padding-inline: 1%;
+    }
+
     #selfintro {
         width: 80%;
     }
