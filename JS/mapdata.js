@@ -1776,6 +1776,13 @@ var simplemaps_worldmap_mapdata={
         description: "Detroit, Ann Arbor, Novi, Canton",
         url: "https://en.wikipedia.org/wiki/Michigan"
       },
+      "florida":{
+        name: "Florida",
+        lat: "27.67",
+        lng: "-81.52",
+        description: "Orlando",
+        url: "https://en.wikipedia.org/wiki/Florida"
+      },
       // Europe
       "paris":{
         name: "Paris",
