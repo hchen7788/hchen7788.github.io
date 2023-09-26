@@ -29,15 +29,7 @@ a:hover{
     text-align: center;
 }
 
-@media screen and (max-width: 640px){
-    /*
-    #headernav {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-    }
-    */
+/* @media screen and (max-width: 640px){
     #headernav{
         display: none;
     }
@@ -50,9 +42,9 @@ a:hover{
         display:block;
         text-align: center;
     }
-}
+} */
 
-@media screen and (max-width: 780px){
+/* @media screen and (max-width: 780px){
     #headernav{
         display: none;
     }
@@ -65,7 +57,7 @@ a:hover{
         display:block;
         text-align: center;
     }
-}
+} */
 
 #footer{
     height: fit-content;
