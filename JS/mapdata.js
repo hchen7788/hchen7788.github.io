@@ -1783,6 +1783,13 @@ var simplemaps_worldmap_mapdata={
         description: "Orlando",
         url: "https://en.wikipedia.org/wiki/Florida"
       },
+      "illinois":{
+        name: "Illinois",
+        lat: "41.52",
+        lng: "-87.37",
+        description: "Chicago",
+        ulr: "https://en.wikipedia.org/wiki/Illinois"
+      },
       // Europe
       "paris":{
         name: "Paris",
