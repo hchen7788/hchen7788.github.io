@@ -24,19 +24,20 @@ animation for caret
 */
 
 #selfintro {
-    display: block;
-    padding-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
     width: 60%;
     height: auto;
+    margin-left: auto;
+    margin-right:auto;
     overflow: hidden;
+    display: flex;
+    justify-content: space-between;
 }
 
 #introleft{
     width: 50%;
-    float: left;
-    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 #pic{
@@ -54,10 +55,8 @@ animation for caret
   } */
 
 #socials{
-    float: left;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
 }
 
@@ -67,24 +66,14 @@ animation for caret
 
 #socials img{
     width: 60%;
-    padding-inline: 1%;
 }
 
 #introright{
     width: 50%;
-    float: right;
-    height: fit-content;
     font-size: 1rem;
 }
 
-#introright p{
-    display: inline;
-}
-
 @media screen and (max-width: 1024px){
-    /* h1{
-        font-size: 1em;
-    } */
 
     #socials img{
         width: 30%;
