@@ -37,3 +37,34 @@ class Nav extends HTMLElement {
 }
 
 customElements.define('custom-nav', Nav);
+
+
+class HamNav extends HTMLElement {
+    constructor() {
+        super();
+    }
+
+    connectedCallback() {
+        this.innerHTML = `
+        <div class="hamburger-navbar">
+                <div class="container nav-container">
+                    <input class="checkbox" type="checkbox" name="" id="" />
+                    <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                    </div>  
+                <div class="menu-items">
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="/learns.html">LEARNS</a></li>
+                    <li><a href="/blogs.html">BLOGS</a></li>
+                    <li><a href="/eats.html">EATS</a></li>
+                    <li><a href="/travels.html">TRAVELS</a></li>
+                </div>
+                </div>
+            </div>
+        `;
+    }
+}
+
+customElements.define('hamburger-nav', HamNav);

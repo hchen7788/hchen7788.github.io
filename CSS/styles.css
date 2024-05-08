@@ -8,12 +8,17 @@ body, html{
     font-weight: 500;
 }
 
-h1{
-    margin: 0;
+#headernav {
+    height: 30px;
+    width: 100%;
+    background-color: #fef8c6;
+    font-size: 20px;
+    color: black;
+    text-align: center;
 }
 
-#hamburger{
-    display: none;
+h1{
+    margin: 0;
 }
 
 a:link, a:visited{
@@ -26,46 +31,6 @@ a:hover{
     text-decoration: underline;
     cursor: pointer;
 }
-
-#headernav {
-    height: 30px;
-    width: 100%;
-    background-color: #fef8c6;
-    font-size: 20px;
-    color: black;
-    /* font-family: 'Inconsolata', 'Dosis', monospace; */
-    text-align: center;
-}
-
-/* @media screen and (max-width: 640px){
-    #headernav{
-        display: none;
-    }
-
-    #hamburger{
-        height: 30px;
-        width: 100%;
-        background-color: #fef8c6;
-        text-align: center;
-        display:block;
-        text-align: center;
-    }
-} */
-
-/* @media screen and (max-width: 780px){
-    #headernav{
-        display: none;
-    }
-
-    #hamburger{
-        height: 30px;
-        width: 100%;
-        background-color: #fef8c6;
-        text-align: center;
-        display:block;
-        text-align: center;
-    }
-} */
 
 #footer{
     height: fit-content;
@@ -127,4 +92,160 @@ a:hover{
 .dialogBox label{
     display: block;
     margin-bottom: 5px;
+}
+
+
+/* hamburger menu */
+.container {
+    background-color: #fef8c6;
+    max-width: 1050px;
+    width: 100%;
+    margin: auto;
+}
+
+.hamburger-navbar {
+    display: none;
+    width: 100%;
+    box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+.hamburger-navbar .menu-items {
+    display: flex;
+}
+
+.hamburger-navbar .nav-container li {
+    list-style: none;
+}
+
+.hamburger-navbar .nav-container a {
+    text-decoration: none;
+    color: #0e2431;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0.7rem;
+}
+
+.hamburger-navbar .nav-container a:hover{
+    font-weight: bolder;
+}
+
+.nav-container {
+    z-index: 2;
+    display: block;
+    position: relative;
+    height: 50px;
+}
+
+.nav-container .checkbox {
+    position: absolute;
+    display: block;
+    height: 32px;
+    width: 32px;
+    top: 20px;
+    left: 20px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+}
+  
+.nav-container .hamburger-lines {
+    display: block;
+    height: 26px;
+    width: 32px;
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+  
+.nav-container .hamburger-lines .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: #0e2431;
+}
+  
+.nav-container .hamburger-lines .line1 {
+    transform-origin: 0% 0%;
+    transition: transform 0.4s ease-in-out;
+}
+  
+.nav-container .hamburger-lines .line2 {
+    transition: transform 0.2s ease-in-out;
+}
+  
+.nav-container .hamburger-lines .line3 {
+    transform-origin: 0% 100%;
+    transition: transform 0.4s ease-in-out;
+}
+  
+.hamburger-navbar .menu-items {
+    background-color: white;
+    padding-top: 120px;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    height: 100vh;
+    width: 100%;
+    transform: translate(-150%);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.5s ease-in-out;
+    text-align: center;
+}
+  
+.hamburger-navbar .menu-items li {
+    margin-bottom: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+  
+  /* .logo {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    font-size: 1.2rem;
+    color: #0e2431;
+  } */
+  
+.nav-container input[type="checkbox"]:checked ~ .menu-items {
+    transform: translateX(0);
+}
+  
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+    transform: rotate(45deg);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+    transform: scaleY(0);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+    transform: rotate(-45deg);
+}
+
+.nav-container input[type="checkbox"]:checked ~ .logo{
+    display: none;
+}
+
+/* hamburger menu ends */
+
+@media screen and (max-width: 780px){
+    #headernav{
+        display: none;
+    }
+    
+    .hamburger-navbar{
+        display: block;
+    }
+    
 }
