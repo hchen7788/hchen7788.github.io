@@ -17,14 +17,12 @@
 }
 
 .search-prompt {
-    font-family: 'Inconsolata', 'Dosis', monospace;
     font-size: 20px;
     border: 0;
 }
 
 .search-box {
     padding-left: 10px;
-    font-family: 'Inconsolata', 'Dosis', monospace;
     font-size: 20px;
     border-style: outset;
     border-radius: 50px;
@@ -98,7 +96,7 @@
 
 #md-html {
     font-size: 15px;
-    font-family: 'Inconsolata', 'Dosis', monospace, 'Yuanti SC';
+    font-family: 'Montserrat', 'Inconsolata', 'Dosis', monospace, 'Yuanti SC';
     text-align: left;
     width: 70%;
     height: 70%;

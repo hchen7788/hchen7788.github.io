@@ -1,10 +1,11 @@
-body{
+body, html{
     margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
-    font-family: 'Inconsolata', 'Dosis', monospace;
+    font-family: 'Montserrat', 'Inconsolata', 'Dosis', monospace;
+    font-weight: 500;
 }
 
 h1{
@@ -32,7 +33,7 @@ a:hover{
     background-color: #fef8c6;
     font-size: 20px;
     color: black;
-    font-family: 'Inconsolata', 'Dosis', monospace;
+    /* font-family: 'Inconsolata', 'Dosis', monospace; */
     text-align: center;
 }
 

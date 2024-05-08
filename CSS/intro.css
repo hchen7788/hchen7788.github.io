@@ -71,6 +71,9 @@ animation for caret
 #introright{
     width: 50%;
     font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 @media screen and (max-width: 1024px){
@@ -160,7 +163,6 @@ animation for caret
     height: fit-content;
     width: 65%;;
     font-size: 1rem;
-    font-family: 'Inconsolata', 'Dosis', monospace;
     text-align: center;
     margin-top: 20px;
     margin-left: auto;
