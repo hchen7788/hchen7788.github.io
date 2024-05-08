@@ -77,87 +77,28 @@ animation for caret
     justify-content: space-evenly;
 }
 
-@media screen and (max-width: 1024px){
-
-    #socials img{
-        width: 30%;
-    }
-
-    #selfintro {
-        width: 80%;
-    }
-    #introleft, #introright{
-        float: none;
-        width: 100%;
-    }
-   
-    #introleft{
-        margin-bottom: 5px;
-    }
-
-    #pic {
-        width: 50%;
-        height: auto;
-    }
-    #introright{
-        margin-bottom: 5px;
-    }
-
-}
-
 @media screen and (max-width: 780px){
     h1{
         font-size: 1.5em;
     }
 
-    #socials img{
-        width: 60%;
-        padding-inline: 1%;
-    }
-
-    #selfintro {
+    #selfintro{
+        display: flex;
+        flex-direction: column;
         width: 80%;
     }
+
     #introleft, #introright{
-        float: none;
         width: 100%;
     }
-    #pic {
-        width: 50%;
-        height: auto;
-    }
-   
-    #introleft{
-        margin-bottom: 5px;
-    }
-    #introright{
-        margin-bottom: 5px;
-    }
 
-}
-
-@media screen and (max-width: 640px){
-    h1{
-        font-size: 1.5em;
-    }
-
-    #socials img{
-        width: 40%;
-        padding-inline: 1%;
-    }
-
-    #selfintro {
-        width: 80%;
-    }
-    #introleft, #introright{
-        float: none;
-        width: 100%;
-    }
     #pic {
         width: 50%;
         height: auto;
     }
 }
+
+
 
 #content-nav{
     background-color: #fef8c66c;
