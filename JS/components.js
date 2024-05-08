@@ -17,3 +17,23 @@ class Footer extends HTMLElement {
 }
 
 customElements.define('custom-footer', Footer);
+
+class Nav extends HTMLElement {
+    constructor() {
+        super();
+    }
+
+    connectedCallback() {
+        this.innerHTML = `
+        <nav id="headernav">
+            <a href="/index.html">HOME</a> |
+            <a href="/learns.html">LEARNS</a> |
+            <a href="/blogs.html">BLOGS</a> |
+            <a href="/eats.html">EATS</a> |
+            <a href="/travels.html">TRAVELS</a>
+        </nav>
+        `;
+    }
+}
+
+customElements.define('custom-nav', Nav);
