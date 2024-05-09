@@ -27,7 +27,7 @@ class Nav extends HTMLElement {
         this.innerHTML = `
         <nav id="headernav">
             <a href="/index.html">HOME</a> |
-            <a href="/learns.html">LEARNS</a> |
+            <a href="/exp.html">EXP</a> |
             <a href="/blogs.html">BLOGS</a> |
             <a href="/eats.html">EATS</a> |
             <a href="/travels.html">TRAVELS</a>
@@ -56,7 +56,7 @@ class HamNav extends HTMLElement {
                     </div>  
                 <div class="menu-items">
                     <li><a href="/index.html">HOME</a></li>
-                    <li><a href="/learns.html">LEARNS</a></li>
+                    <li><a href="/exp.html">EXP</a></li>
                     <li><a href="/blogs.html">BLOGS</a></li>
                     <li><a href="/eats.html">EATS</a></li>
                     <li><a href="/travels.html">TRAVELS</a></li>
