@@ -6,7 +6,8 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    margin-bottom: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .exp-text{
@@ -27,5 +28,5 @@
     object-fit: contain;
     border: 1px solid #ddd;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5), 0 20px 24px rgba(0, 0, 0, 0.5);
 }
