@@ -60,7 +60,7 @@
                 <p>✅ Live in a Studio by Myself</p>
             </details>
 
-            <section class="search-bar">
+            <!-- <section class="search-bar">
                 <label class="search-prompt" for="search-prompt">SEARCH</label>
                 <input id="search-post" class="search-box" type="text" placeholder="enter keywords">
                 <button class="search-btn" type="submit" onclick="searchPost()">🔍</button>
@@ -73,6 +73,44 @@
                         <button id="okFromConfirm" class="dialogBtn" value="default">OK</button>
                     </form>
                 </dialog>
+            </section> -->
+
+            <section id="blog">
+                <div class="blog-container">
+                    <div class="blog-img">
+                        <img src="blogs-posts/blogs-images/saigonTrail.png">
+                    </div>
+                    <div class="blog-text">
+                        <div class="blog-tag">walk</div>
+                        <div class="blog-title">
+                            <a href="#">Saigon Trail</a>
+                        </div>
+                        <div class="blog-meta">
+                            <p class="blog-date">01 Apr 2023</p>
+                        </div>
+                        <div class="blog-desc">
+                            <p>Random walk in SD #1</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog-container">
+                    <div class="blog-img">
+                        <img src="blogs-posts/blogs-images/saigonTrail.png">
+                    </div>
+                    <div class="blog-text">
+                        <div class="blog-tag">study</div>
+                        <div class="blog-title">
+                            <a href="#">Bamboo Breaking Sounds of Words & Languages</a>
+                        </div>
+                        <div class="blog-meta">
+                            <p class="blog-date">06 Feb 2023</p>
+                        </div>
+                        <div class="blog-desc">
+                            <p>Random thoughts from a post about lack of appreciation of native languages and the lost of context during language translation. Finally establishing my interests in different aspects of languages on "paper" for the first time</p>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <section class="detail-posts">
@@ -102,29 +140,6 @@
                 
             </section>
 
-            <!-- <section id="feedback-box">
-                <button id="feedback-btn" onclick="showFeedbackDialog()">Feedback?</button>
-                    <-- <template>
-                        <form action="/action_page.php">
-                            <input type="text" name="answer">
-                            <label for="text">text</label><br>
-                            <input type="submit" value="Submit">
-                        </form>
-                    </template>
-                    <dialog id="feedbackDialog" class="dialogBox">
-                        <p>feedback welcomed!!</p>
-                        <form method="dialog">
-                            <label for="feedbackName">Your name:</label>
-                            <input id="feedbackNameInput" type="text" name="feedbackName" value=""><br>
-                            <label for="feedbackContact">Contact:</label>
-                            <input id="feedbackContactInput" type="text" name="feedbackContact" value=""><br>
-                            <label for="feedbackContent">Feedback:</label>
-                            <input id="feedbackContentInput" type="text" name="feedbackContent" value=""><br>
-                            <button id="cancelFromFeedback" class="dialogBtn" value="cancel">Cancel</button>
-                            <button id="submitFromFeedback" class="dialogBtn" value="default" onclick="submitFeedback()">Submit</button>
-                        </form>
-                    </dialog>
-            </section> -->
         </main>
         
         <custom-footer id="footer"></custom-footer>
