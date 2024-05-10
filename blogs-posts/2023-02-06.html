@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Haitong's Blogs</title>
+        <link rel="icon" href="../images/blogs-icon.webp" alt="">
+        <link rel="stylesheet" href="../CSS/styles.css">
+        <link rel="stylesheet" href="../CSS/post.css">
+        <script src="../JS/framework.js"></script>
+        <script src="/JS/post.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        <script src="../JS/components.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Gothic+A1:wght@300&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <custom-nav id="headernav"></custom-nav>
+            <hamburger-nav></hamburger-nav>
+        </header>
+
+        <main>
+            <div class="blog-page">
+                <div class="blog-banner">
+                    <div class="blog-banner-bg" style="background: url(blogs-images/saigonTrail.png) center center"></div>
+                    <div class="blog-banner-content">
+                        <div class="blog-banner-nav" style="text-align: right;">
+                            <a href="../blogs.html">Back</a>
+                        </div>
+                        <div class="blog-banner-text-container">
+                            <div class="blog-banner-text">
+                                <h1 class="blog-banner-title">Bamboo Breaking Sounds of Words & Languages</h1>
+                                <p class="blog-banner-tag">study, NLP, Machine Translation, Contextual Lost, Low-Resource Language</p>
+                                <p class="blog-banner-date">06 Feb 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="blog-body"></div>
+
+                <script>
+                    mdToHtml("./2023-02-06.md")
+                </script>
+            </div>
+        </main>
+
+        <custom-footer id="footer"></custom-footer>
+    </body>
+</html>

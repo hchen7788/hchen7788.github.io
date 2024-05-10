@@ -1,21 +1,19 @@
-function expandPost(fileName){
-    const dia = document.getElementById("md-html");
-    const d = document.getElementById("md-content");
-    dia.showModal();
-    dia.addEventListener('click', () => dia.close());
-    d.addEventListener('click', (event) => event.stopPropagation());
+function mdToHtml(fileName){
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', `../blogs-posts/${fileName}`, true);
-    xhr.onreadystatechange = function(){
-        if (xhr.readyState === 4 && xhr.status === 200) {
-            let output = document.getElementById('md-content');
-            output.innerHTML = xhr.responseText;
-            // console.log(xhr.responseText); // log the file contents to the console
-
-            // var template = document.getElementById("md-html");
-            // var clon = template.content.cloneNode(true);
-            // document.body.appendChild(clon);
-          }
+    xhr.open('GET', `./${fileName}`, true);
+    xhr.responseType = 'text';
+    xhr.onload = function() {
+        if (xhr.status === 200) {
+            var markdownText = xhr.responseText;
+            var htmlContent = marked.parse(markdownText);
+            var markdownContent = document.getElementById('blog-body');
+            markdownContent.innerHTML = htmlContent;
+        } else {
+            console.error('Failed to fetch Markdown file. Status:', xhr.status);
+        }
+    };
+    xhr.onerror = function() {
+        console.error('Error fetching Markdown file.');
     };
     xhr.send();
 }
