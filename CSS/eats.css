@@ -34,15 +34,24 @@
 }
 
 /* update */
+h1{
+    text-align: center;
+    font-weight: 500;
+}
+
 .eat-section{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: auto;
 }
 
 .eat-container{
     width: 200px;
     height: 200px;
     position: relative;
+    margin-top: 30px;
 }
 
 .eat-container img{

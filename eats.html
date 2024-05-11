@@ -7,23 +7,13 @@
         <link rel="stylesheet" href="CSS/styles.css">
         <link rel="stylesheet" href="CSS/post.css">
         <link rel="stylesheet" href="CSS/eats.css">
-        <script src="./JS/framework.js"></script>
-        <script src="./JS/post.js"></script>
-        <script src="./JS/components.js" defer></script>
+        <script src="/JS/framework.js"></script>
+        <script src="/JS/post.js"></script>
+        <script src="/JS/components.js" defer></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Gothic+A1:wght@300&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     </head>
-    <!-- Google tag (gtag.js) -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-JZ4GC034KR"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-JZ4GC034KR');
-    </script> -->
-
     <body>
         <header>
             <custom-nav id="headernav"></custom-nav>
@@ -38,7 +28,7 @@
                 Top 3: Seafood (all sorts) 🦞🦐🦪🐚</p>
             </details>
 
-            <section class="search-bar">
+            <!-- <section class="search-bar">
                 <label class="search-prompt" for="search-prompt">SEARCH</label>
                 <input id="search-post" class="search-box" type="text" placeholder="enter keywords">
                 <button class="search-btn" type="submit" onclick="searchPost()">🔍</button>
@@ -51,9 +41,68 @@
                         <button id="okFromConfirm" class="dialogBtn" value="default">OK</button>
                     </form>
                 </dialog>
+            </section> -->
+
+            <h1>Boston</h1>
+            <section class="eat-section">
+                <div class="eat-container">
+                    <img src="/eats-images/theBostonSailLoft.png">
+                    <div class="eat-text">
+                        <h3 class="eat-name">the Boston Sail Loft</h3>
+                        <p class="eat-addr">80 Atlantic Ave, Boston, MA</p>
+                        <p class="eat-rating">Rating: 9/10</p>
+                    </div>
+                </div>
+
+                <div class="eat-container">
+                    <img src="/eats-images/neptuneOyster.png">
+                    <div class="eat-text">
+                        <h3 class="eat-name">Neptune Oyster</h3>
+                        <p class="eat-addr">63 Salem St, Boston, MA</p>
+                        <p class="eat-rating">Rating: 9/10</p>
+                    </div>
+                </div>
+
+                <div class="eat-container">
+                    <img src="/eats-images/caffeParadiso.png">
+                    <div class="eat-text">
+                        <h3 class="eat-name">Caffè Paradiso</h3>
+                        <p class="eat-addr">255 Hanover St, Boston, MA</p>
+                        <p class="eat-rating">Rating: 9/10</p>
+                    </div>
+                </div>
+
+                <div class="eat-container">
+                    <img src="/eats-images/jonquilsCafeBakery.png">
+                    <div class="eat-text">
+                        <h3 class="eat-name">Jonquils Cafe & Bakery</h3>
+                        <p class="eat-addr">125 Newbury St, Boston, MA</p>
+                        <p class="eat-rating">Rating: 9/10</p>
+                    </div>
+                </div>
+
+                
             </section>
 
-            <section id="detail-eats">
+            <br>
+            <br>
+            <h1>San Diego</h1>
+            <section class="eat-section">
+                <div class="eat-container">
+                    <img src="/eats-images/jomaru.png">
+                    <div class="eat-text">
+                        <h3 class="eat-name">Jomaru</h3>
+                        <p class="eat-addr">Convoy Street, San Diego, CA</p>
+                        <p class="eat-rating">Rating: 9/10</p>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <br>
+
+
+
+            <!-- <section id="detail-eats">
                 <div class="eats-post" onmouseover="toGif('jomaru', 'eats-images')" onmouseleave="leaveGif('jomaru', 'eats-images')">
                     <img id="jomaruImg" src="eats-images/jomaru.png" alt="picture of Jomaru soup">
                     <p>Jomaru</p>
@@ -84,31 +133,8 @@
                     <p>125 Newbury St, Boston, MA</p>
                     <p>Rating: 9/10</p>
                 </div>
-            </section>
-
-            <!-- <section id="feedback-box">
-                <button id="feedback-btn" onclick="showFeedbackDialog()">Feedback?</button>
-                    <template>
-                        <form action="/action_page.php">
-                            <input type="text" name="answer">
-                            <label for="text">text</label><br>
-                            <input type="submit" value="Submit">
-                        </form>
-                    </template> -->
-                    <!-- <dialog id="feedbackDialog" class="dialogBox">
-                        <p>feedback welcomed!!</p>
-                        <form method="dialog">
-                            <label for="feedbackName">Your name:</label>
-                            <input id="feedbackNameInput" type="text" name="feedbackName" value=""><br>
-                            <label for="feedbackContact">Contact:</label>
-                            <input id="feedbackContactInput" type="text" name="feedbackContact" value=""><br>
-                            <label for="feedbackContent">Feedback:</label>
-                            <input id="feedbackContentInput" type="text" name="feedbackContent" value=""><br>
-                            <button id="cancelFromFeedback" class="dialogBtn" value="cancel">Cancel</button>
-                            <button id="submitFromFeedback" class="dialogBtn" value="default" onclick="submitFeedback()">Submit</button>
-                        </form>
-                    </dialog>
             </section> -->
+
             
         </main>
         
