@@ -24,6 +24,16 @@ h1{
     width: 100%;
 }
 
+.proj-content a{
+    color: rgb(131, 97, 46);
+}
+
+.proj-content a:hover{
+    color: #AAA9A9;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .proj-content{
     display: flex;
     justify-content: space-between;
