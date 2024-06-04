@@ -92,6 +92,16 @@
     justify-content: space-evenly;
 }
 
+#introright a{
+    color:rgb(131, 97, 46);
+}
+
+#introright a:hover{
+    color: #AAA9A9;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 780px){
     .typewriter{
         font-size: 1.5em;
