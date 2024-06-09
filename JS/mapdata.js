@@ -1752,7 +1752,7 @@ var simplemaps_worldmap_mapdata={
         name: "Washington",
         lat: "47.7511",
         lng: "-120.7401",
-        description: "Seattle",
+        description: "Seattle, Bellevue",
         url: "https://en.wikipedia.org/wiki/Washington_(state)"
       },
       "oregon":{
